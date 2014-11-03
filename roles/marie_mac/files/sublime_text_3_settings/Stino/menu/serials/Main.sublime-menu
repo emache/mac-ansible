@@ -1,0 +1,79 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "Serial Port", 
+                "children": [
+                    {
+                        "args": {
+                            "serial_port": "/dev/cu.Bluetooth-Incoming-Port"
+                        }, 
+                        "caption": "/dev/cu.Bluetooth-Incoming-Port", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "/dev/cu.BoseQuietComfort35f-SPP"
+                        }, 
+                        "caption": "/dev/cu.BoseQuietComfort35f-SPP", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "/dev/cu.BoseQuietComfort35f-SPP-1"
+                        }, 
+                        "caption": "/dev/cu.BoseQuietComfort35f-SPP-1", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "/dev/cu.PhotosmartPremiumC309g-"
+                        }, 
+                        "caption": "/dev/cu.PhotosmartPremiumC309g-", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "/dev/tty.Bluetooth-Incoming-Port"
+                        }, 
+                        "caption": "/dev/tty.Bluetooth-Incoming-Port", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "/dev/tty.BoseQuietComfort35f-SPP"
+                        }, 
+                        "caption": "/dev/tty.BoseQuietComfort35f-SPP", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "/dev/tty.BoseQuietComfort35f-SPP-1"
+                        }, 
+                        "caption": "/dev/tty.BoseQuietComfort35f-SPP-1", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }, 
+                    {
+                        "args": {
+                            "serial_port": "/dev/tty.PhotosmartPremiumC309g-"
+                        }, 
+                        "caption": "/dev/tty.PhotosmartPremiumC309g-", 
+                        "checkbox": true, 
+                        "command": "select_serial_port"
+                    }
+                ], 
+                "id": "serial_port"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

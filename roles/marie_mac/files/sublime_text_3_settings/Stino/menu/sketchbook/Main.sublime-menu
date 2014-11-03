@@ -1,0 +1,163 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "Sketchbook", 
+                "children": [
+                    {
+                        "args": {
+                            "sketch_path": "/Users/marieluvinh/Documents/Arduino/sketch_jun14a"
+                        }, 
+                        "caption": "sketch_jun14a", 
+                        "command": "open_sketch"
+                    }, 
+                    {
+                        "caption": "Touch Board Examples", 
+                        "children": [
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/flappy_bird"
+                                }, 
+                                "caption": "flappy_bird", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/HID_Keyboard"
+                                }, 
+                                "caption": "HID_Keyboard", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/hole_in_the_wall"
+                                }, 
+                                "caption": "hole_in_the_wall", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Light_Switch"
+                                }, 
+                                "caption": "Light_Switch", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Midi_interface"
+                                }, 
+                                "caption": "Midi_interface", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Midi_interface_generic"
+                                }, 
+                                "caption": "Midi_interface_generic", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Midi_Piano"
+                                }, 
+                                "caption": "Midi_Piano", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/midi_theremin"
+                                }, 
+                                "caption": "midi_theremin", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "caption": "multi_board_touch_midi", 
+                                "children": [
+                                    {
+                                        "args": {
+                                            "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/multi_board_touch_midi/primary_midi_board"
+                                        }, 
+                                        "caption": "primary_midi_board", 
+                                        "command": "open_sketch"
+                                    }, 
+                                    {
+                                        "args": {
+                                            "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/multi_board_touch_midi/secondary_midi_board"
+                                        }, 
+                                        "caption": "secondary_midi_board", 
+                                        "command": "open_sketch"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "caption": "multi_board_touch_mp3", 
+                                "children": [
+                                    {
+                                        "args": {
+                                            "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/multi_board_touch_mp3/primary_mp3_board"
+                                        }, 
+                                        "caption": "primary_mp3_board", 
+                                        "command": "open_sketch"
+                                    }, 
+                                    {
+                                        "args": {
+                                            "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/multi_board_touch_mp3/secondary_mp3_board"
+                                        }, 
+                                        "caption": "secondary_mp3_board", 
+                                        "command": "open_sketch"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Prox_LED"
+                                }, 
+                                "caption": "Prox_LED", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/prox_volume"
+                                }, 
+                                "caption": "prox_volume", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Proximity_MP3"
+                                }, 
+                                "caption": "Proximity_MP3", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Random_Touch_MP3"
+                                }, 
+                                "caption": "Random_Touch_MP3", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/Touch_MP3"
+                                }, 
+                                "caption": "Touch_MP3", 
+                                "command": "open_sketch"
+                            }, 
+                            {
+                                "args": {
+                                    "sketch_path": "/Users/marieluvinh/Documents/Arduino/Touch Board Examples/touch_mp3_with_leds"
+                                }, 
+                                "caption": "touch_mp3_with_leds", 
+                                "command": "open_sketch"
+                            }
+                        ]
+                    }
+                ], 
+                "id": "sketchbook"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

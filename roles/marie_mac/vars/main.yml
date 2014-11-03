@@ -1,0 +1,35 @@
+---
+homebrew_taps:
+  - caskroom/cask
+  
+homebrew_packages:
+  - autoconf
+  - autojump
+  - automake
+  - coreutils
+  - cowsay
+  - ffmpeg
+  - git
+  - imagemagick
+  - lesspipe
+  - ncdu
+  - node
+  - readline
+  - tree
+  - watch
+  - wget
+  - youtube-dl
+  - zsh-completions
+
+homebrew_cask_packages:
+  - alfred
+  - axure-rp-pro
+  - bettertouchtool
+  - evernote
+  - flux
+  - google-chrome
+  - skype
+  - sublime-text
+  - vlc
+
+npm_packages: []

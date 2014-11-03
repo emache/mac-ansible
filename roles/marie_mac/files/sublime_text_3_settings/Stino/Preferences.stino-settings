@@ -1,0 +1,14 @@
+{
+    "arduino_ide_path": "/Applications/Arduino.app", 
+    "ide.arduino.avr.mega": [
+        "ide.arduino.avr.mega.cpu.atmega2560"
+    ], 
+    "ide.arduino.avr.nano": [
+        "ide.arduino.avr.nano.cpu.atmega328"
+    ], 
+    "lang_id": "en", 
+    "serial_port": "/dev/cu.Bluetooth-Incoming-Port", 
+    "sketchbook_path": "/Users/marieluvinh/Documents/Arduino", 
+    "target_board_id": "ide.arduino.avr.uno", 
+    "target_programmer_id": "ide.arduino.avr.avrisp"
+}
