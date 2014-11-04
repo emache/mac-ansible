@@ -28,7 +28,6 @@ homebrew_cask_packages:
   - evernote
   - flux
   - google-chrome
-  - skype
   - sublime-text
   - vlc
 
