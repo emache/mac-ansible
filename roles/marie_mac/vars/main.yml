@@ -29,6 +29,7 @@ homebrew_cask_packages:
   - flux
   - google-chrome
   - sublime-text
+  - skype
   - vlc
 
 npm_packages: []
