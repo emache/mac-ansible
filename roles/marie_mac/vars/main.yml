@@ -6,6 +6,7 @@ homebrew_packages:
   - autoconf
   - autojump
   - automake
+  - brew-cask
   - coreutils
   - cowsay
   - ffmpeg
@@ -17,6 +18,7 @@ homebrew_packages:
   - readline
   - tree
   - watch
+  - watchman
   - wget
   - youtube-dl
   - zsh-completions
@@ -25,11 +27,16 @@ homebrew_cask_packages:
   - alfred
   - axure-rp-pro
   - bettertouchtool
+  - coconutbattery
   - evernote
   - flux
   - google-chrome
-  - sublime-text
+  - kindle
+  - sketch
   - skype
+  - spotify
+  - sublime-text
+  - unrarx
   - vlc
 
 npm_packages: []
