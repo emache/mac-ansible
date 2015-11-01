@@ -39,4 +39,9 @@ homebrew_cask_packages:
   - unrarx
   - vlc
 
-npm_packages: []
+npm_packages:
+  - bower
+  - broccoli-cli
+  - ember-cli
+  - grunt-cli
+  - gulp
