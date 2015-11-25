@@ -1,16 +1,28 @@
-- file: src=~/Documents/mac-ansible/roles/marie_mac/files/dotfiles/{{ item }}
-        path=~/.{{ item }}
-        state=link
+- name: basic dotfiles
+  file:
+    src: "~/Documents/mac-ansible/roles/marie_mac/files/dotfiles/{{ item }}"
+    path: "~/.{{ item }}"
+    state: link
   with_items:
     - gitconfig
     - gitignore_global
 
+- name: sublime text 2 settings
+  file:
+    src: ~/Documents/mac-ansible/roles/marie_mac/files/sublime_text_2_settings
+    path: ~/Library/Application Support/Sublime Text 2/Packages/User
+    state: link
+
 - name: zsh - git repo for prezto fork
-  git: repo=git@github.com:adamchainz/prezto.git
-       dest=~/.zprezto
+  git:
+    repo: git@github.com:adamchainz/prezto.git
+    dest: ~/.zprezto
 
 - name: zsh - link in prezto files
-  file: state=link src=~/.zprezto/runcoms/{{ item }} path=~/.{{ item }}
+  file:
+    state: link
+    src: "~/.zprezto/runcoms/{{ item }}"
+    path: "~/.{{ item }}"
   with_items:
     - zlogin
     - zlogout
