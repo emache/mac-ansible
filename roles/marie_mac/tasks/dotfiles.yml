@@ -7,10 +7,10 @@
     - gitconfig
     - gitignore_global
 
-- name: sublime text 2 settings
+- name: sublime text 3 settings
   file:
-    src: ~/Documents/mac-ansible/roles/marie_mac/files/sublime_text_2_settings
-    path: ~/Library/Application Support/Sublime Text 2/Packages/User
+    src: ~/Documents/mac-ansible/roles/marie_mac/files/sublime_text_3_settings
+    path: ~/Library/Application Support/Sublime Text 3/Packages/User
     state: link
 
 - name: zsh - git repo for prezto fork
