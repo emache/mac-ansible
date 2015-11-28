@@ -15,7 +15,7 @@
 
 - name: zsh - git repo for prezto fork
   git:
-    repo: git@github.com:adamchainz/prezto.git
+    repo: git@github.com:emache/prezto.git
     dest: ~/.zprezto
 
 - name: zsh - link in prezto files
