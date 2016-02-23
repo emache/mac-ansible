@@ -25,18 +25,22 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - alfred
-  - axure-rp-pro
+  - android-file-transfer
+  - anki
   - bettertouchtool
   - coconutbattery
   - evernote
   - flux
   - google-chrome
+  - mpeg-streamclip
   - kindle
+  - rescuetime
   - sketch
   - skype
   - spotify
   - unrarx
   - vlc
+  - wacom-tablet
 
 npm_packages:
   - bower

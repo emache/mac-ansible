@@ -2,9 +2,9 @@
 	"auto_complete": true,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
+	"font_size": 15,
 	"ignored_packages":
 	[
-		"ColorPick",
 		"Vintage"
 	],
 	"tab_completion": true,
