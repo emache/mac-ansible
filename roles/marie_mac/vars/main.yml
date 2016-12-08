@@ -1,7 +1,7 @@
 ---
 homebrew_taps:
   - caskroom/cask
-  
+
 homebrew_packages:
   - autoconf
   - autojump
@@ -16,6 +16,7 @@ homebrew_packages:
   - ncdu
   - node
   - readline
+  - ruby
   - tree
   - watch
   - watchman
@@ -25,9 +26,11 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - alfred
+<<<<<<< HEAD
   - android-file-transfer
   - anki
   - bettertouchtool
+  - disk-inventory-x
   - coconutbattery
   - evernote
   - flux
@@ -41,6 +44,7 @@ homebrew_cask_packages:
   - unrarx
   - vlc
   - wacom-tablet
+  - zeplin
 
 npm_packages:
   - bower
