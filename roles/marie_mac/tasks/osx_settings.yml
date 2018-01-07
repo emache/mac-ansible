@@ -16,7 +16,7 @@
 - name: OS X Global | Use function key to get at special meanings of keys
   osx_defaults:
     key: com.apple.keyboard.fnState
-    bool: yes
+    int: 1
 
 - name: OS X Global | Tab goes through all controls on dialogs
   osx_defaults:
@@ -34,7 +34,7 @@
   osx_defaults:
     domain: com.apple.dock
     key: tilesize
-    int: 48
+    float: 48.0
   notify: kill dock
 
 # - name: Dock | No persistent apps
