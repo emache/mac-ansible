@@ -1,6 +1,6 @@
 [user]
-    name = "Marie Lu Vinh"
-    email = mluvinh@gmail.com
+	name = Marie Lu Vinh
+	email = mluvinh@gmail.com
 
 [core]
     excludesfile = ~/.gitignore_global
@@ -54,3 +54,8 @@
 
 [hub]
     protocol = ssh
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
