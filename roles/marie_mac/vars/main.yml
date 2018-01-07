@@ -31,9 +31,10 @@ homebrew_cask_packages:
   - anki
   - bettertouchtool
   - disk-inventory-x
-  - coconutbattery
   - evernote
+  - flume
   - flux
+  - franz
   - google-chrome
   - mpeg-streamclip
   - kindle
