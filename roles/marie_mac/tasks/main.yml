@@ -1,6 +1,3 @@
-- name: Basic settings
-  include: basic_settings.yml
-
 - name: Install things
   include: installs.yml
 

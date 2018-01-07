@@ -6,7 +6,6 @@ homebrew_packages:
   - autoconf
   - autojump
   - automake
-  - brew-cask
   - coreutils
   - cowsay
   - ffmpeg
@@ -43,7 +42,6 @@ homebrew_cask_packages:
   - spotify
   - unrarx
   - vlc
-  - wacom-tablet
   - zeplin
 
 npm_packages:
