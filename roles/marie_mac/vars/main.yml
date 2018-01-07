@@ -26,9 +26,9 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - alfred
-<<<<<<< HEAD
   - android-file-transfer
   - anki
+  - atom
   - bettertouchtool
   - disk-inventory-x
   - evernote
@@ -36,7 +36,6 @@ homebrew_cask_packages:
   - flux
   - franz
   - google-chrome
-  - mpeg-streamclip
   - kindle
   - rescuetime
   - sketch
@@ -49,7 +48,6 @@ homebrew_cask_packages:
 
 npm_packages:
   - bower
-  - broccoli-cli
-  - ember-cli
   - grunt-cli
   - gulp
+  - yarn
