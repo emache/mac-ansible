@@ -11,7 +11,13 @@
   file:
     src: ~/Documents/mac-ansible/roles/marie_mac/files/sublime_text_3_settings
     path: ~/Library/Application Support/Sublime Text 3/Packages/User
-    state: link
+    state: directory
+
+- name: sketch plugins
+  copy:
+    src: ~/Documents/mac-ansible/roles/marie_mac/files/sketch_plugins/
+    dest: ~/Library/Application Support/com.bohemiancoding.sketch3/Plugins/
+    force: no
 
 - name: zsh - git repo for prezto fork
   git:

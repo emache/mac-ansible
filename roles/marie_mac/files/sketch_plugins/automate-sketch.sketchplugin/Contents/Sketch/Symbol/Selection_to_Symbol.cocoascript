@@ -1,0 +1,27 @@
+@import "../Libraries/Google_Analytics.cocoascript";
+
+var onRun = function(context) {
+
+    var document = context.document;
+    var selection = context.selection;
+
+    var loopSelection = selection.objectEnumerator();
+    var layer;
+    while (layer = loopSelection.nextObject()) {
+
+        var layers = MSLayerArray.arrayWithLayers([layer]);
+        if (MSSymbolCreator.canCreateSymbolFromLayers(layers)) {
+
+            var symbolName = layer.name();
+            var symbolInstance = MSSymbolCreator.createSymbolFromLayers_withName_onSymbolsPage(layers, symbolName, false);
+            var symbolMaster = symbolInstance.symbolMaster();
+
+            symbolMaster.setRect(symbolInstance.absoluteRect().rect());
+            symbolMaster.setLayerListExpandedType(1);
+            symbolInstance.removeFromParent();
+        }
+    }
+
+    ga(context, "UA-99098773-3", "Symbol", context.command.identifier());
+
+};
