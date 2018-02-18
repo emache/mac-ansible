@@ -39,8 +39,10 @@ homebrew_cask_packages:
   - rescuetime
   - sketch
   - skype
+  - slack
   - spotify
   - unrarx
+  - vanilla
   - vlc
   - zeplin
 
