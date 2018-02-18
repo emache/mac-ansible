@@ -13,6 +13,12 @@
     path: ~/Library/Application Support/Sublime Text 3/Packages/User
     state: directory
 
+- name: Alfred preferences
+  file:
+    src: ~/Documents/mac-ansible/roles/marie_mac/files/Alfred.alfredpreferences
+    path: ~/Library/Application Support/Alfred 3/
+    state: directory
+
 - name: sketch plugins
   copy:
     src: ~/Documents/mac-ansible/roles/marie_mac/files/sketch_plugins/
