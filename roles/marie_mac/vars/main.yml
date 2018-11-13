@@ -29,8 +29,10 @@ homebrew_cask_packages:
   - anki
   - atom
   - bettertouchtool
+  - craftmanager
   - disk-inventory-x
   - evernote
+  - figma
   - flume
   - flux
   - franz
@@ -41,6 +43,7 @@ homebrew_cask_packages:
   - skype
   - slack
   - spotify
+  - sublime-text
   - unrarx
   - vanilla
   - vlc
